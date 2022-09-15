@@ -29,6 +29,8 @@ cd alai_elixir
 `mix test`
 --------------
 
+![show the started_applications](./assets_docs/iex_applications.png)
+
 user@machine:~/alearn/alai_elixir$ `mix release`
 ------------------------------------------------
 

@@ -48,12 +48,14 @@ Release created at _build/dev/rel/alai_elixir!
 
 Once the release is running:
 
-    # To connect to it remotely
+You can *connect remotly*:
+
     _build/dev/rel/alai_elixir/bin/alai_elixir remote
 
-    # To stop it gracefully (you may also send SIGINT/SIGTERM)
+Or * stop it gracefully (you may also send SIGINT/SIGTERM)*
+
     _build/dev/rel/alai_elixir/bin/alai_elixir stop
 
-To list all commands:
+**List all commands**:
 
     _build/dev/rel/alai_elixir/bin/alai_elixir

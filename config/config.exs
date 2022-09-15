@@ -1,3 +1,5 @@
+IO.puts("START config/config.exs")
+
 import Config
 
 config :alai_elixir,
@@ -5,3 +7,5 @@ config :alai_elixir,
   key2: "value2_dev"
 
 import_config "#{config_env()}.exs"
+
+IO.puts("END config/config.exs")

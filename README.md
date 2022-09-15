@@ -52,7 +52,7 @@ You can *connect remotly*:
 
     _build/dev/rel/alai_elixir/bin/alai_elixir remote
 
-Or * stop it gracefully (you may also send SIGINT/SIGTERM)*
+Or *stop it gracefully (you may also send SIGINT/SIGTERM)*
 
     _build/dev/rel/alai_elixir/bin/alai_elixir stop
 

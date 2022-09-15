@@ -13,7 +13,12 @@ defmodule AlaiElixir do
 
   """
   def hello do
-    Application.fetch_env!(:alai_elixir, :key1)
     :world
+  end
+
+  def where do
+    value = Application.fetch_env!(:alai_elixir, :key1)
+    IO.puts(value)
+    IO.puts(Path.expand(__DIR__))
   end
 end
